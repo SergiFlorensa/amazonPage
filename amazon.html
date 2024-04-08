@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./amazon.css">
+    
+</head>
+<body>
+ <header>
+  <div class="divLogo">
+   <a href="#" class="logo"><img src="./amazonn.png">
+  </div>
+  <span class="gps">
+    <div class="logoSVG"><svg xmlns="http://www.w3.org/2000/svg" class="iconSVG" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+  </svg>
+</div>
+  <span class="ubicacion">Actualizar ubicación</span>
+  <span class="ubicacion2">Entrega en Reus, 43205</span>
+</span>
+<div class="nav-search">
+    <div class="nav-search2">
+        <select class="select-search">
+            <option value="" selected disabled hidden>Todos los departamentos</option>
+            <option value="opcion1">Electrónica</option>
+            <option value="opcion2">Iluminación</option>
+            <option value="opcion3">Peliculas y Tv</option>
+            <option value="opcion4">Software</option>
+        </select>
+    </div>
+    <div class="div-search">
+        <input class="input-search" placeholder="Busca Amazon.es">
+    </div>
+    <div class="div-lens">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-lens" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M17 5h2a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-2" />
+            <path d="M7 19h-2a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+          </svg>
+    </div>
+    <div class="lupaa">
+        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px"  class="svgLens" height="30px"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/></svg>
+    </div>
+</div>
+
+<span class="idiomas">
+    <span class="bandera">
+        <img src="/flag.jpg" alt="español" class="flagSpain">
+    </span>
+    <span class="idioma">
+        <select id="selectIdioma" onchange="cambiarIdioma()">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+        </select>
+    </span>
+</span>
+
+<a href="#" class="saludo">
+    <span class="identificacion">Hola, Identifícate</span>
+    <span class="cuenta">Cuentas y listas</span>
+</a>
+
+<a href="#" class="devPedidos">
+    <span class="devoluciones">Devoluciones</span>
+    <span class="yPedidos">y Pedidos</span>
+</a>
+<a href="#" class="compras">
+    <div class="carritoNum">
+        <span class="carro">
+              <img src="/carroAmazon.png" alt="">
+        </span>
+        <span class="cantidad"></span>
+    </div>
+    <div class="cesta">
+        <span class="cestaText">Cesta</span>
+    </div>
+</a>
+<div class="productos">
+    <a href="#" class="allMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon-burguer" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+          </svg>
+          <span class="todo">Todo</span>
+    </a>
+    <div class="products">
+        <a href="link">Los mas vendidos</a>
+        <a href="link">Amazon Basics</a>
+        <a href="link">Música</a>
+        <a href="link">Prime</a>
+        <a href="link">Ultimas Novedades</a>
+        <a href="link">Informática</a>
+        <a href="link">Ofertas</a>
+        <a href="link">Audible</a>
+        <a href="link">Hogar y Cocina</a>
+        <a href="link">Libros</a>
+        <a href="link">Moda</a>
+        <a href="link">Deporte y Aire Libre</a>
+    </div>
+    <div class="publicity"> 
+     <a href="#"></a>DESCUBRE TODAS LAS OFERTAS
+    </div>
+</div>
+ </header>
+
+ <div class="portada"></div>
+
+ <div class="container">
+    <div class="imagenGrande">
+        <div class="imagen1">
+            <h2>Oferta Top</h2>
+            <a href="#">
+                <img src="./special-offer.jpg" alt="Imagen de producto">
+            </a>
+        </div>
+        <div class="imagen2">
+            <h2>Oferta Flash</h2>
+            <a href="#">
+                <img src="./amaz.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen3">
+            <h2>Descubra los productos usados</h2>
+            <a href="#">
+                <img src="./amazon-prime-day_2.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen4">
+            <h2>Ofertas en Outlet</h2>
+            <a href="#">
+                <img src="./outlet2jpg.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen5">
+            <h2>Informática y accesorios</h2>
+            <a href="#">
+                <img src="./tech.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen6">
+            <h2>Ideas para Casa y cocina</h2>
+            <a href="#">
+                <img src="./1000-x-1000-1.png" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen7">
+            <h2>Ponte en forma desde casa</h2>
+            <a href="#">
+                <img src="./sport.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+        <div class="imagen8">
+            <h2>Ofertas en productos usados</h2>
+            <a href="#">
+                <img src="./brico.jpg" alt="Imagen de oferta flash">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="animatedDiv">
+<span class="animacionBack">
+    <section class="galeria">
+        <article class="card">
+            <figure>
+                <img
+                src="./bed.jpg"
+                title="bed"/>
+            </figure>
+        </article>
+
+        <article class="card">
+            <figure>
+                <img
+                src="./home.jpg"/>
+            </figure>
+        </article>
+        <article class="card">
+            <figure>
+                <img
+                src="./focus.jpg"
+                alt="focused"
+                title="focusedd"/>
+            </figure>
+        </article>
+        <article class="card">
+            <figure>
+                <img
+                src="./street.jpg"
+                alt="Street Art"
+                title="Street Art"/>
+            </figure>
+        </article>
+    </section>
+</span>
+</div>
+
+<div class="prime1"></div>
+
+
+<div class="prime"></div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>

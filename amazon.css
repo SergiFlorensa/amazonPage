@@ -1,0 +1,725 @@
+header{
+    background-color: #131921;
+    height: 8vh;
+    position: relative;
+    display: flex; 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.divLogo img{
+    
+    height: 11vh;
+    width: 7vw;
+    display: flex;
+    position: relative;
+    float: none;
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    margin-left: -5px;
+    top: -9px;
+}
+
+.gps {
+    position: relative; 
+    top: 53px; 
+    left: 150px;
+    display: flex;
+    margin-left: -139px;    
+}
+.iconSVG{
+    position: relative;
+    top: -40px;
+    width: 1.5vw;
+    margin-left: -25px;
+}
+.ubicacion{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: -27px;
+    display: flex;
+    
+    
+}
+.ubicacion2{
+    color: #BBCCCC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    top: -39px;
+    margin-left: -118px;
+    display: flex;
+    
+
+}
+
+.nav-search2{
+    position: relative;
+    top: -40px;
+    margin-left: 185px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.input-search{
+    position: relative;
+    margin-left: 434px;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 6vh;
+    width: 35.4vw;
+    top: -84px;
+    border-radius: 10px;
+    display: flex;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.icon-lens{
+    position: relative;
+    width: 30px;
+    height: 25vh;
+    margin-left: 895px;
+    top: -194px;
+    display: flex;
+}
+.lupaa{
+    position: relative;
+    width: 44px;
+    top: -303px;
+    background-color: #FEBD69;
+    border-radius: 8px;
+    height: 44px;
+    display: flex;
+    margin-left: 939px;
+}
+.svgLens{
+    margin-left: 7px;
+    margin-top: 7px;
+
+}
+.select-search {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 249px;
+    outline: none;
+    background-color: #e6e6e6;
+    height: 41px;
+    display: flex;
+}
+.select-search option {
+    content: 'Todos los departamentos'; 
+    color: #000000; 
+    display: block;
+    width: 100%; 
+    height: 100%; 
+}
+.select-search:focus {
+    border-color: #0a59a8; 
+    display: block;
+}
+.flagSpain{
+    position: absolute;
+    width: 1.3vw;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1005px;
+    top: 20px;
+}
+
+#selectIdioma{
+    position: relative;
+    top: -335px;
+    margin-left: 1025px;
+    border: none; 
+    outline: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.saludo{
+    width: 5vw;
+    height: 6vh;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top:8px;
+    margin-left: 14px;
+    display: flex;
+
+}
+.identificacion{
+    width: 7vw;
+    height: 2vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top: 3px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+
+}
+.cuenta{
+    width: 7vw;
+    height: 2vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top: 19px;
+    margin-left: px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+
+}
+.devPedidos{
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 1320px;
+    top: 10px;
+    display: flex;
+
+}
+.devoluciones{
+    width: 7vw;
+    height: 2vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 4px;
+    color: white;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    top: 1px;
+
+}
+.yPedidos{
+    width: 7vw;
+    height: 2vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 6px;
+    top: 16px;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    display: flex;
+
+
+}
+.compras{
+    width: 11vh;
+    height: 6vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 1430px;
+    top: 7px;
+    display: flex;
+}
+.carritoNum{
+    width: 5.8vh;
+    height: 6vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.carro{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: -15px;
+    top: 1px;
+}
+.carro img{
+    width: 3vw;
+    
+}
+.icon-cart{
+    width: 4vw;
+    height: 5vh;
+    display: flex;
+}
+.cesta{
+    width: 7vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 10px;
+    
+    
+}
+.cestaText{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    
+}
+.productos{
+    width: 100%;
+    height: 5vh;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #232F3E;
+    margin-left: -1274px;
+    margin-top:  56px;
+    position: relative;
+    flex-direction: row;
+}
+.allMenu{
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+}
+.icon-burguer{
+    height: 3.4vh;
+}
+.todo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.products{
+    width: 67vw;
+    height: 5vh;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    display: block;
+    margin-left: 88px;
+    top: -1px;
+}
+
+.products a{
+    text-decoration: none;
+    justify-content: space-between;
+    display: inline-block;
+    flex-direction: row;
+    padding: 9px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+    
+}
+.publicity{
+    width: 28vw;
+    height: 5vh;
+    position: absolute;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    display: flex;
+    margin-left: 1090px;
+    color: white;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    top: -4px;
+    
+}
+.portada {
+    width: 100%; 
+    height:120vh; 
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1)),url(./blackAdam_.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 250px;
+}
+
+.imagenGrande {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 120px; /* Espacio entre los elementos */
+}
+
+.imagenGrande > div {
+    width: calc(15% - 10px); /* Ancho de cada imagen con margen */
+    max-width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.imagenGrande img {
+    width: 10vw; /* Ajustar el ancho de las imágenes al contenedor */
+    height: 60vh; /* Ajustar la altura de las imágenes al contenedor */
+    object-fit: contain; /* Espacio entre las imágenes */
+    border-radius: 12px;
+
+}
+
+.galeria{
+    display: flex;
+    left: caalc(50%-330px);
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    left: 0px;
+    width: 370px;
+    height: 430px;
+    margin-top: 100px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.5);
+}
+.card:not(:first-child){
+    margin-left: -45px;
+}
+
+.card:hover{
+    transform: translateY(-106px);
+    -webkit-transform: translateY(-106px);
+    -moz-transform: translateY(-106px);
+    -ms-transform: translateY(-106px);
+    -o-transform: translateY(-106px);
+    font-weight: bold;
+    cursor: pointer;
+}
+.card:hover ~ .card{
+    left: 85px;
+}
+.card img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.animatedDiv{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:85px;
+    height: 80vh;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, white, #232F3E); */
+}
+.prime1{
+    width: 100%; 
+    height:110vh;
+    margin-top: 25vh;
+    background-color: #232F3E; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.prime{
+    width: 100%; 
+    height:40vh;
+    background-color: #131921; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    header {
+        header {
+            width: 100%;
+            height: 50vh;
+            flex-direction: row;
+        }
+    }
+    .divLogo img{
+        width:20vw;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        object-fit: fill;
+        display: flex;
+        position: relative;
+    }
+    .gps {
+        display: none;    
+    }
+    .iconSVG{
+        display: none;
+    }
+    .ubicacion{
+     display: none;
+        
+    }
+    .ubicacion2{
+        display: none;
+    }
+    .nav-search{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-search2{
+        width:20vw;
+    }
+    .select-search {
+        border-radius: 3px;
+        padding: 8px 16px;
+        font-size: 16px;
+        width: 35vw;
+        outline: none;
+        background-color: #e6e6e6;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .icon-lens{
+        display: none;
+    }
+    .lupaa{
+        display: none;
+    }
+    .svgLens{
+     display: none;
+    }
+    
+    .select-search option {
+        content: 'Todos los departamentos'; 
+        color: #000000; 
+        display: flex;
+        width: 35vw; 
+        height: 5vh; 
+    }
+    .select-search:focus {
+        border-color: #0a59a8; 
+        display: flex;
+    }
+    .flagSpain{
+        display: none;
+    }
+    #selectIdioma{
+        display: none;
+    }
+    .saludo{
+       display: none;
+    }
+    .identificacion{
+        display: none;
+    }
+    .cuenta{
+        display: none;
+
+    
+    }
+    .devPedidos{
+        display: none;
+
+    
+    }
+    .devoluciones{
+        display: none;
+
+    
+    }
+    .yPedidos{
+        display: none;
+
+    
+    }
+    .compras{
+        display: none;
+
+    }
+    .carritoNum{
+        display: none;
+
+    }
+    .carro{
+        display: none;
+
+    }
+    .carro img{
+        display: none;
+
+        
+    }
+    .icon-cart{
+        display: none;
+
+    }
+    .cesta{
+        display: none;
+
+        
+        
+    }
+    .cestaText{
+        display: none;
+
+    }
+    .productos{
+        display: none;
+
+    }
+    .allMenu{
+        width: 5vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: absolute;
+    }
+    .icon-burguer{
+        height: 3.4vh;
+    }
+    .todo{
+        display: none;
+
+        
+    }
+    .products{
+        display: none;
+
+    }
+    
+    .products a{
+        display: none;
+
+    
+        
+    }
+    .publicity{
+        display: none;
+        
+    }
+    .portada {
+        height: calc(50vh - 8vh); /* Restar la altura del header */
+        background-size: 100% auto; /* Ajustar el tamaño de la imagen al 100% del ancho */
+        position: relative; /* Establecer posición absoluta */
+        top: 8vh; /* Colocar la portada debajo del header */
+        left: 0; /* Alinear la portada al borde izquierdo */
+        width: 100%; 
+             
+    }
+    
+    .container {
+        position: absolute; /* Establece posición absoluta para poder ajustar el top */
+        top: calc(100% + 20px); /* Coloca el contenedor debajo de la portada */
+        left: 0; /* Alinea el contenedor al borde izquierdo */
+        width: 100%; /* Ancho completo */
+        padding: 20px;    
+        display: contents;
+    }
+
+    .imagenGrande {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;    }
+
+    .imagenGrande > div {
+        width: calc(50% - 10px); /* Ancho de cada imagen con margen en pantallas más pequeñas */
+        height: 300px; /* Altura de cada imagen en pantallas más pequeñas */
+    }
+
+    .imagenGrande img {
+        border-radius: 12px; /* Borde redondeado para las imágenes */
+        width: 100%; /* Ajustar el ancho de las imágenes al contenedor */
+        height: 100%; /* Ajustar la altura de las imágenes al contenedor */
+        object-fit: contain; /* Ajustar la imagen para que se vea completa sin recortar */
+    }
+    
+    
+
+    .animatedDiv{
+        display: none;
+    }
+    .prime1,
+    .prime {
+        position: static; /* Restaurar la posición predeterminada */
+        width: 100%; /* Ancho completo */
+        height: auto; /* Altura automática para adaptarse al contenido */
+        margin-top: 20px; /* Espacio superior opcional */
+    }
+}
+    
+    
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Aquí van los estilos específicos para pantallas medianas */
+}
+
+@media screen and (min-width: 1024px) {
+    /* Aquí van los estilos específicos para pantallas grandes */
+}
+
